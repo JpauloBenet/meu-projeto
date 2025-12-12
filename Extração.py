@@ -1,3 +1,4 @@
+# https://github.com/BugzTheBunny/streamlit_custom_gui?tab=readme-ov-file
 import os
 from pathlib import Path
 from unstructured_client import UnstructuredClient
@@ -70,4 +71,5 @@ if __name__ == "__main__":
         os.makedirs(OUTPUT_DIR, exist_ok=True)
         print(f"Diretório de saída verificado/criado em: {OUTPUT_DIR}")
         
+
         extrair_markdown_do_pdf(PDF_PATH, OUTPUT_MD_PATH)
